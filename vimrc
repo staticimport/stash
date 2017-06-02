@@ -1,5 +1,6 @@
 
-colorscheme molokai
+colorscheme gruvbox
+set background=dark
 syntax enable       " enable syntax processing
 filetype indent on  " load filetype-specific indent files
 set tabstop=2       " number of visual spaces per TAB
@@ -14,6 +15,8 @@ set lazyredraw      " redraw only when needed
 set incsearch       " search as characters are entered
 set hlsearch        " highlight search
 set backspace=2     " make backspace work normally
+set showmatch       " show matching bracket
+set nowrap          " don't wrap text
 
 inoremap jj <ESC>
 
